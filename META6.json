@@ -1,0 +1,31 @@
+{
+        "perl" : "5.c",
+        "name" : "RogueCurses",
+        "auth" : "CPAN:KOBOLDWIZ",
+        "api" : "1",
+        "version" : "0.1.10",
+        "description" : "small Rogue game library using Curses.",
+        "authors" : [ "Koboldwiz" ],
+        "license" : "BSD",
+        "provides" : {
+            "RogueCurses::entity" : "lib/RogueCurses/entity.pm",
+            "RogueCurses::entitystate" : "lib/RogueCurses/entitystate.pm",
+            "RogueCurses::interface" : "lib/RogueCurses/interface.pm",
+            "RogueCurses::rogueinterface" : "lib/RogueCurses/rogueinterface.pm",
+            "RogueCurses::screen" : "lib/RogueCurses/screen.pm",
+            "RogueCurses::RNG" : "lib/RogueCurses/RNG.pm",
+            "RogueCurses::messageparser" : "lib/RogueCurses/messageparser.pm",
+            "RogueCurses::NPCs::trenchgnome" : "lib/RogueCurses/NPCs::trenchgnome.pm",
+            "RogueCurses::NPCs::trenchgnomeinterface" : "lib/RogueCurses/NPCs::trenchgnomeinterface.pm",
+            "RogueCurses::room" : "lib/RogueCurses/room.pm"
+        },
+        "depends" : [ "Curses" ],
+        "build-depends" : [ ],
+        "test-depends" : [ ],
+        "resources" : [ ],
+        "tags": [
+          "RogueCurses"
+        ],
+        "source-url" : "http://cpan.metacpan.org/authors/id/K/KO/KOBOLDWIZ/Perl5/p5-RogueCurses-0.1.10.tar.gz"
+
+}

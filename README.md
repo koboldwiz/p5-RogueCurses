@@ -1,2 +1,2 @@
-# p5-RogueCurses
-Small Adventure/RPG system using Curses
+# p5-RogueGame
+game system for RPG/Adventure games using Curses.
